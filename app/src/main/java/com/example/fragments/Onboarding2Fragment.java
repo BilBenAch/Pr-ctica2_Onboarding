@@ -44,7 +44,7 @@ public class Onboarding2Fragment extends Fragment {
         botonSkip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.homeFragment);
+                navController.navigate(R.id.action_onboarding3Fragment_to_homeFragment);
             }
         });
     }
